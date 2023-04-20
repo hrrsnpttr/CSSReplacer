@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Selective CSS Replacer",
+  "version": "1.0",
+  "description": "Replaces specific CSS styles on the current webpage",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "css": ["new_styles.css"]
+    }
+  ]
+}
