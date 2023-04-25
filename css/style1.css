@@ -1,13 +1,15 @@
 /* TODO */
 
 body {
-    background-color: #c24343 !important;
+
+    background-color: #d0d0d0 !important;
     
 }
 
 div {
     background-color: #d0d0d0 !important;
     color: black !important;
+
 }
 
 header {
@@ -27,4 +29,3 @@ a {
 p {
     background-color: #898888 !important;
 }
-
