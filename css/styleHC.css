@@ -1,0 +1,36 @@
+body { 
+	color: #ffffff !important; 
+	background: #3f3f3f !important;
+	}
+
+div {
+    color: #ffffff !important; 
+	background: #3f3f3f !important;
+}
+
+h3 { 
+	color: #ffffff !important;
+	}
+a {
+    background: #3f3f3f !important;
+}
+
+a:link { 
+	color: #fff200 !important;
+	}
+a:visited { 
+	color: #00ff2a !important;
+	}
+a:hover, a:focus, a:active { 
+	color: #00ff2a !important;
+	}
+
+.sidebar li a:link {
+	color: #fff200 !important;
+	}
+.sidebar li a:visited {
+	color: #00ff2a !important;
+	}
+footer {
+    background: #3f3f3f !important;
+}
