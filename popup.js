@@ -8,12 +8,12 @@ document.addEventListener('DOMContentLoaded', function() {
     var val = cssSelect.value;
     if(val === "0"){
       chrome.tabs.executeScript({
-        code: "document.body.style.color = 'black'; document.body.style.background = 'white';"
+        code: "document.body.style.color = 'white'; document.body.style.background = 'black'; document.div.style.background = '#3f3f3f'; document.div.style.color = '#ffffff'"
       });
     }
     else if(val === "1"){
       chrome.tabs.executeScript({
-        code: "document.body.style.color = 'red'; document.body.style.background = 'blue';"
+        code: "document.body.style.color = 'black'; document.body.style.background = 'white'; document.div.style.background = '#000000'; document.div.style.color = '#ffffff'"
       });
     }
     else if(val === "2"){
