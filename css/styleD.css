@@ -1,0 +1,35 @@
+body { 
+	color: #000000 !important; 
+	background: #ffffff !important;
+	}
+
+div {
+    color: #000000 !important; 
+	background: #ffffff !important;
+}
+
+h3 { 
+	color: #000000 !important;
+	}
+
+a:link { 
+	color: #1100ff !important;
+	}
+a:visited { 
+	color: #929292 !important;
+	}
+a:hover, a:focus, a:active { 
+	color: #929292 !important;
+	}
+
+.sidebar li a:link {
+	color: #1100ff !important;
+	}
+.sidebar li a:visited {
+	color: #929292 !important;
+	}
+footer {
+    background: #ffffff !important;
+}
+
+
