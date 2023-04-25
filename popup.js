@@ -4,12 +4,33 @@ document.addEventListener('DOMContentLoaded', function() {
   var decreaseButton = document.getElementById('decrease-font');
   var cssFileInput = document.getElementById('css-file');
 
-
   cssSelect.addEventListener('change', function() {
-    var selectedCss = cssSelect.value;
-    chrome.tabs.executeScript({
-      code: 'var link = document.createElement("link"); link.rel = "stylesheet"; link.href = "' + selectedCss + '"; document.head.appendChild(link);'
-    });
+    var val = cssSelect.value;
+    if(val === "0"){
+      chrome.tabs.executeScript({
+        code: "document.body.style.color = 'black'; document.body.style.background = 'white';"
+      });
+    }
+    else if(val === "1"){
+      chrome.tabs.executeScript({
+        code: "document.body.style.color = 'red'; document.body.style.background = 'blue';"
+      });
+    }
+    else if(val === "2"){
+      chrome.tabs.executeScript({
+        code: "document.body.style.color = 'yellow'; document.body.style.background = 'purple';"
+      });
+    }
+    else if(val === "3"){
+      chrome.tabs.executeScript({
+        code: "document.body.style.color = 'green'; document.body.style.background = 'white';"
+      });
+    }
+    else if(val === "4"){
+      chrome.tabs.executeScript({
+        code: "document.body.style.color = 'yellow'; document.body.style.background = 'black';"
+      });
+    }
   });
 
   increaseButton.addEventListener('click', function() {
