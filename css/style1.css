@@ -1,8 +1,27 @@
 body {
-    background-color: #5f5e64 !important;
-}
-  
-h1 {
-    color: #a52020 !important;
+    background-color: #d0d0d0 !important;
+    
 }
 
+/* div {
+    background-color: #d0d0d0 !important;
+    color: black !important;
+} */
+
+header {
+    background-color: #898888 !important;
+    color: black !important;
+}
+
+footer {
+    background-color: #898888 !important;
+    color: black !important;
+}
+
+a {
+    color: rgb(250, 4, 4) !important;
+}
+
+p {
+    background-color: #898888 !important;
+}
