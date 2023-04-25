@@ -6,7 +6,7 @@
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
-      "css": ["new_styles.css"]
+      "css": ["style_contrast.css"]
     }
   ]
 }
